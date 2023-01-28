@@ -42,6 +42,11 @@
     font-size: 15px;
     line-height: 24px;
     color: #D27487;
+    text-decoration: none;
+}
+
+.header__nav-item:hover{
+    text-decoration: underline;
 }
 
 .header__socials-wrapper{
@@ -50,6 +55,14 @@
     gap: 16px;
     align-items: center;
     margin-left: 96px;
+}
+
+.header__socials-item{
+    transition: 0.5s;
+}
+
+.header__socials-item:hover{
+    opacity: 50%;
 }
 
 .header__image-wrapper img{
@@ -293,7 +306,10 @@
     column-gap: 32px;
     row-gap: 7px;
     max-width: 650px;
+}
 
+.footer__nav-item{
+    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -301,6 +317,10 @@
     line-height: 22px;
     text-align: center;
     color: #1F1F1F;
+}
+
+.footer__nav-item:hover{
+    text-decoration: underline;
 }
 
 .footer__copyright-items{
